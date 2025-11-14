@@ -30,16 +30,22 @@ AgroConnect enables farmers to sell their produce directly to consumers through 
 
 Screenshots
 🏡 Homepage
-<img width="1920" height="1080" alt="Screenshot (112)" src="https://github.com/user-attachments/assets/72aa6068-2eab-4d0a-a67d-ac92579421a2" />
+<img width="1920" height="956" alt="Screenshot (112)" src="https://github.com/user-attachments/assets/e13478d0-281f-46f6-934c-3d7c8dcbf169" />
 
 
 👨‍🌾 User/farmer login page
 
-<img width="1920" height="1080" alt="Screenshot (120)" src="https://github.com/user-attachments/assets/7aba5d13-82d1-42fe-8bc1-052a9f22b2f8" />
+<img width="1920" height="950" alt="Screenshot (120)" src="https://github.com/user-attachments/assets/6ebf86d3-391a-41f0-b070-61ef403aded5" />
+
 
 🛒 Product Listing Page
 
-<img width="1920" height="1080" alt="Screenshot (116)" src="https://github.com/user-attachments/assets/d0c6b993-47fc-4355-bb77-8ec609985228" />
+<img width="1920" height="964" alt="Screenshot (116)" src="https://github.com/user-attachments/assets/60640092-a229-465c-b5a3-27e298b9aa9b" />
+
+🛒Product Uplad page for farmer
+
+<img width="1920" height="954" alt="Screenshot (115)" src="https://github.com/user-attachments/assets/ba579d19-021b-4169-97f6-ee75cac1a88b" />
+
 
 Features
 
