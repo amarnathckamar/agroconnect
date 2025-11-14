@@ -1,153 +1,115 @@
-🌾 AgroConnect – Farmer to Consumer Marketplace
+AgroConnect – Marketplace Website Project Documentation
+1. Project Overview
 
-A web-based marketplace designed to connect Indian farmers directly with consumers, eliminating middlemen and promoting fair trade, transparency, and digital empowerment in rural communities.
+AgroConnect is a digital marketplace created to connect Indian farmers directly with consumers.
+The platform eliminates middlemen, encourages fair pricing, and supports economic growth in rural communities.
+It allows farmers to list their products while customers can conveniently browse and purchase fresh produce.
+The platform promotes sustainability and digital literacy by introducing modern technology into agriculture.
 
-📌 Overview
+2. GitHub Repository Description
 
-AgroConnect is an e-commerce platform that enables farmers to list and sell agricultural products directly to customers. The system provides an easy-to-use interface for browsing products, managing orders, and handling user accounts with role-based access (Customer, Farmer, Admin).
+AgroConnect is a farmer-to-consumer e-commerce website built using PHP, MySQL, HTML, CSS, JavaScript, and Bootstrap.
+The project aims to empower farmers with direct market access while ensuring customers get fresh produce at fair prices.
+The system features:
 
-🧩 Features
-👨‍🌾 Farmer Features
+Farmer dashboard for product management
 
-Upload and manage product listings
+Customer features like browsing, cart, and orders
 
-Update prices, quantities, and descriptions
+Admin panel to manage disputes, data, and users
 
-View order requests and notifications
+Secure login and session management
 
-🛍️ Customer Features
+This repository includes all source code, database files, and documentation.
 
-Browse available agricultural products
+3. README (With Screenshot Placeholders)
+AgroConnect – Farmer to Consumer Marketplace
+Overview
 
-Add items to cart and place orders
+AgroConnect enables farmers to sell their produce directly to consumers through a user-friendly online marketplace.
 
-View order status and history
+Screenshots
+🏡 Homepage
+<img width="1920" height="1080" alt="Screenshot (112)" src="https://github.com/user-attachments/assets/72aa6068-2eab-4d0a-a67d-ac92579421a2" />
 
-🛠️ Admin Features
 
-Monitor user activities
+👨‍🌾 User/farmer login page
 
-Manage disputes and product authenticity
+<img width="1920" height="1080" alt="Screenshot (120)" src="https://github.com/user-attachments/assets/7aba5d13-82d1-42fe-8bc1-052a9f22b2f8" />
 
-Generate system reports
+🛒 Product Listing Page
 
-🔐 Authentication
+<img width="1920" height="1080" alt="Screenshot (116)" src="https://github.com/user-attachments/assets/d0c6b993-47fc-4355-bb77-8ec609985228" />
 
-Secure login & registration (PHP Sessions)
+Features
 
-Role-based dashboard access
+Product upload and management for farmers
 
-🏗️ How It Works
+Customer browsing, search, cart, and orders
 
-Users Register/Login (Customer or Farmer)
+Admin monitoring and dispute resolution
 
-Farmers Upload Products (Name, image, price, stock)
+Secure login system through PHP sessions
 
-Customers Browse Products and add items to the cart
+How It Works
 
-Orders Are Placed and stored in the database
+Users (farmers/customers) register and login
 
-Farmers Receive Order Notifications
+Farmers upload products with details
 
-Admin Monitors Platform and handles issues
+Customers browse and place orders
 
-🖥️ Tech Stack
-Frontend
+All data is stored in a MySQL database
 
-HTML
+Admin monitors platform activities
 
-CSS
+Tech Stack
 
-JavaScript
+Frontend: HTML, CSS, JavaScript, Bootstrap
 
-Bootstrap
+Backend: PHP
 
-Backend
+Database: MySQL
 
-PHP
+Environment: XAMPP / Apache
 
-Database
+4. Documentation Folder Structure
+project-folder/
+│── index.php                  
+│── login.php                 
+│── register.php              
+│── cart.php                  
+│── product.php               
+│── seller.php                
+│── order_history.php         
+│── profile.php               
+│── logout.php                
 
-MySQL
+│── /uploads/                 -> Product images
+│── /css/styles.css           -> Stylesheets
+│── /js/script.js             -> JavaScript files
+│── /database/marketplace.sql -> Database schema
 
-Environment
+│── README.md                 -> Core documentation
 
-XAMPP / Apache Server
+│── /docs/
+│     │── System_Architecture.pdf
+│     │── ER_Diagram.png
+│     │── DFD_Level_0.png
+│     │── DFD_Level_1.png
+│     │── UI_Wireframes/
+│           │── home.png
+│           │── login.png
+│           │── product.png
 
-PHPMyAdmin
+5. Future Enhancements
 
-📁 Project Structure
-/project-folder
-│── index.php
-│── login.php
-│── register.php
-│── cart.php
-│── product.php
-│── seller.php
-│── order_history.php
-│── profile.php
-│── logout.php
-│── /uploads (product images)
-│── /css/styles.css
-│── /js/script.js
-│── /database/marketplace.sql
+Integration of UPI and card-based payments
 
-⚙️ Setup Instructions
-1. Install XAMPP
+Live delivery tracking system
 
-Download from: https://www.apachefriends.org/
-
-2. Move Project Files
-
-Place the project folder inside:
-
-xampp/htdocs/
-
-3. Start Apache & MySQL
-
-Open XAMPP → Start Apache and MySQL
-
-4. Import Database
-
-Go to: http://localhost/phpmyadmin
-
-Create database: marketplace
-
-Import marketplace.sql
-
-5. Run the Project
-
-Open browser →
-
-http://localhost/project-folder/
-
-🧪 Testing
-
-Verified login functionality
-
-Product upload/edit/delete tested
-
-Cart and order placement tested
-
-SQL injection and session security validated
-
-🚀 Future Enhancements
-
-Online payment integration (UPI/Card)
-
-Delivery tracking system
-
-Mobile app version
-
-Multi-language support
+Dedicated mobile app (Android/iOS)
 
 Review and rating system for farmers
 
-🤝 Contributing
-
-Contributions are welcome!
-Feel free to submit pull requests or report issues.
-
-📜 License
-
-This project is for educational and academic purposes.
+AI-based recommendation engine
